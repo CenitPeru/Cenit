@@ -1,10 +1,10 @@
-#footer{background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));}
-#footer a {color:white;}
+
+
 #header img{
   width: 60px;
 }
 #main img{
-  max-height: 80vh;
+  max-height: 85vh;
   object-fit: cover;
   filter: contrast(90%);
 }
@@ -32,3 +32,5 @@
   background-attachment: fixed;
   filter: grayscale(60%);
 }
+#footer{background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));}
+#footer a {color:white;}
