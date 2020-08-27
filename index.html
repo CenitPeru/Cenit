@@ -24,14 +24,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#Main">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#noticia">Proyectos</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Publicaciones
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
@@ -40,12 +40,8 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contáctanos <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#contactanos">Contáctanos <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -78,7 +74,7 @@
         <img src="IMAGENES TELEMEDICINA/89.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p id="noticia">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
       </div>
       <div class="overlay">
@@ -103,12 +99,33 @@
   </div>
 </main>
 <!--presentación-->
+<!--proyecto-->
+<section id="proyecto">
+  <div class="container-fluid  ">
+    <div class="row" id="targeta">
+      <div class="col-5 offset-1">
+        <h3 class="text-center">Proyecto</h3>
+        <img src="IMAGENES TELEMEDICINA/96.png" alt="">
+
+      </div>
+      <div class="col-5 offset-1" id="info">
+
+        <p>El cáncer gástrico es la tercera causa de muerte por cáncer en ambos sexos en todo el mundo. La enfermedad es responsable de 783.000 muertes anualmente. La tasa de supervivencia a 5 años de los pacientes con cáncer gástrico en los países occidentales varía del 10% a 25%. Además, la mediana de las tasas de supervivencia general para los pacientes con cáncer gástrico avanzado es de solo 12 meses.
+           Sin lugar a dudas, la prevención del cáncer gástrico requiere intervenciones urgentes.
+Para responder a esta necesidad, se diseñara un algoritmo rentable basado en el conocimiento de la biología molecular del tumor.</p>
+        <button type="button" class="btn btn-warning btn-lg btn-block mb-2">Participar</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--proyecto-->
 <!--contactanos-->
+
 <section id="contactanos">
   <div class="fondocontacto">
     <div class="row ">
       <div class="col-md-8 offset-md-2 pt-2 text-uppercase text-center ">
-        <h2 class= "mt-4">Escribenos</h2>
+        <h2 class= "mt-4" id="escribenos">Escribenos</h2>
   <form action="enviar.php" method="POST">
     <div class="form-row mb-3 mt-1">
       <div class="form group col-6">
