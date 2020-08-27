@@ -4,7 +4,7 @@
   width: 60px;
 }
 #main img{
-  max-height: 85vh;
+  max-height: 90vh;
   object-fit: cover;
   filter: contrast(90%);
 }
@@ -24,7 +24,6 @@
 /*Proyectos*/
 #proyecto{
   background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));
-  max-height: 80vh;
   padding: 30px;
   border: solid black;
   border-width: 1px;
