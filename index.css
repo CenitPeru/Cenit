@@ -47,6 +47,25 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
   padding-top: 2.7%;
 }
 /*Proyectos*/
+/*Publicaciones*/
+#public1{
+  background-color: rgb(238,233,239);
+  border-radius: 2px;
+}
+/*Publicaciones*/
+/*Nosotros*/
+#Nosotros{
+text-align:center;
+background-color: rgb(238,233,239);
+border-radius: 2px;
+}
+#imagenmision{
+  max-width: 100%;
+border-radius: 4px;
+align-self: center;
+box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.5);
+}
+/*Nosotros*/
 /*contactanos*/
 #contactanos .fondocontacto{
   background-image: url("44.png");
