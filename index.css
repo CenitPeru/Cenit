@@ -27,7 +27,7 @@
 }
 #logocarusel img{
   max-height: 50vh;
-  filter: contrast(120%);
+  filter: contrast(130%);
 }
 #miembros{background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));}
 /*Proyectos*/
