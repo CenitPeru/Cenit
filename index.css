@@ -1,12 +1,18 @@
-
-
+body{
+  background-color: rgb(238,233,239);
+}
+.navbar-brand{
+  margin: 0%;
+  margin-top: -4%;
+  margin-bottom: -5%;
+}
 #header img{
-  width: 60px;
+  width: 38%;
 }
 #main img{
   max-height: 90vh;
   object-fit: cover;
-  filter: contrast(85%);
+  filter: contrast(90%);
 }
 #carouselExampleCaptions{
   position: relative;
@@ -18,28 +24,64 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: rgb(238,233,239);
 }
 #logocarusel{
   position: absolute;
+  top: 15%;
   z-index: 3;
 
 }
 #logocarusel img{
-  max-height: 50vh;
-  filter: contrast(130%);
+  max-height: 60vh;
+  filter: contrast(120%);
+  transition: 0s;
 }
-#miembros{background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));}
+#logocarusel img:hover{
+  width:92vh;
+  transition-duration:0.5s;
+}
+#nov3{
+
+  position: absolute;
+  top: 20%;
+}
+#novcard3{
+  position: relative;
+  top:1%;
+  
+}
+#botoncardam{
+  width: 40vh;
+}
+#novcard3 img{
+  width: 40vh;
+  border-radius: 20px;
+}
+#novcard3 h6{
+  font-size: 30px;
+}
+#aparece{
+  position: absolute;
+  top:-25%;
+  width:149vh;
+  display:none;
+
+}
+#imapa{
+  width:50px;
+  height: 40vh;
+}
 /*Proyectos*/
 #proyecto{
-  background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));
+  background:  rgb(238,233,239);
   padding: 30px;
   border: solid black;
   border-width: 1px;
   border-color: rgb(21,117,124);
 }
 #targeta{
-  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.1);
   padding: 2%;
 }
 #proyecto img{
@@ -51,9 +93,9 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
 #info{
   background-color: rgb(238,233,239);
   border-radius: 6px;
-  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.5);
   text-align: justify;
-  padding-top: 2.7%;
+  padding-top: 5%;
+  font-size: 13px;
 }
 /*Proyectos*/
 /*Publicaciones*/
@@ -61,12 +103,18 @@ box-shadow: 0px 3.5px 9px 0px rgba(0, 0, 0, 0.5);
   background-color: rgb(238,233,239);
   border-radius: 2px;
 }
+
+#card1{
+  margin-top: 2%;
+}
 /*Publicaciones*/
 /*Nosotros*/
 #Nosotros{
 text-align:center;
 background-color: rgb(238,233,239);
 border-radius: 2px;
+border-color:black;
+border-bottom-width: 5cm;
 }
 #imagenmision{
   max-width: 100%;
@@ -74,7 +122,41 @@ border-radius: 4px;
 align-self: center;
 box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.5);
 }
+#textosomos{
+  font-size: 13px;
+}
+#block {
+  border-style: double;
+  border-color:black;
+}
 /*Nosotros*/
+/*miembros*/
+#miembros{
+  background: linear-gradient(to right, rgb(21,91,150) , rgb(21,149,92));
+  
+}
+#miembros small{
+  font-size: 8px;
+  
+}
+#miembros .card-body{
+  height: 65vh;
+}
+#miembros img{
+  height: 30vh;
+  width:90%;
+  margin-top: 2%;
+  margin-left: 5%;
+  border-radius: 4px;
+}
+#boxmiembros{
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.7);
+  background-color:whitesmoke;
+}
+#rowmembers{
+  margin-left: 7%;
+}
+/*miembros*/
 /*contactanos*/
 #contactanos .fondocontacto{
   background-image: url("44.png");
